@@ -36,6 +36,7 @@ public class MultipleCatchBlock {
 	*/
 		// Approch 2
 	
+		// Note: Exception Hierarchy should be followed carefully
 		catch (IndexOutOfBoundsException|ArithmeticException | FileNotFoundException e) {
 			
 			e.printStackTrace();
