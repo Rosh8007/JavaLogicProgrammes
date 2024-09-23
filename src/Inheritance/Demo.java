@@ -48,11 +48,14 @@ public class Demo {
 		ch.m2();
 		ch.m3();
 
+		System.out.println("======================================");
 		parent pc=new childs();
 		pc.m1();
 		pc.m2();
+		
 
-		System.out.println(x);
+		System.out.println(pc.x);
+		
 		
 	}
 
