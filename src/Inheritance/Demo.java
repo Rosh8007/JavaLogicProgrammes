@@ -47,6 +47,12 @@ public class Demo {
 		ch.m1();
 		ch.m2();
 		ch.m3();
+
+		parent pc=new childs();
+		pc.m1();
+		pc.m2();
+
+		System.out.println(x);
 		
 	}
 
