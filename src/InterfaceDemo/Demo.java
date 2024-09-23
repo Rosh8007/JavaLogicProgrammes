@@ -3,7 +3,7 @@ package InterfaceDemo;
 interface I1 {
 
 
-	int x=12;
+	 int x=12;
 
 	void m1();//abstract method
 	
@@ -47,6 +47,7 @@ public class Demo
 		I1 i=new I2();
 		i.m1();
 		i.m2();
+		
 		
 		System.out.println(i.x);
 
